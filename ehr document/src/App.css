@@ -1,0 +1,30 @@
+/* App.css */
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+
+
+.button-container button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container {
+  margin-bottom: 0px;
+}
+
+/* .doctor-container,
+.nurse-container {
+  padding: 10px;
+  background-color: lightgray;
+} */
+

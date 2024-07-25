@@ -1,0 +1,92 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.box {
+  background-color: #dbecf1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.box-form {
+  border: 2px solid black;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 250px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="age"],
+select,
+textarea {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 40%;
+  background-color: #fff;
+  margin-left: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  width: 65%;
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  background-color: #9d9ef6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #4d8aea;
+}
+
+#ghst {
+  margin: 10px;
+  width: 450px;
+}
+
+.app {
+  flex: 1;
+  width: 100%;
+}
+
+.appimg {
+  text-align: center;
+}
